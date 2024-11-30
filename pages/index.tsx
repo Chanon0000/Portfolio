@@ -64,7 +64,7 @@ const Home: React.FC = () => {
             marginBottom: '20px',
           }}
         >
-          <h2>Portfolio</h2>
+          <h2>Portfolio Me</h2>
           <ul>
             <li>
               <a href=" " target="_blank" rel="noopener noreferrer">
