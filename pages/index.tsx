@@ -1,5 +1,5 @@
-// pages/index.tsx
 import React from 'react';
+import Image from 'next/image';  // นำเข้า Image จาก next/image
 
 const Home: React.FC = () => {
   return (
@@ -15,12 +15,12 @@ const Home: React.FC = () => {
         }}
       >
         <a href="https://github.com/Chanon0000" target="_blank" rel="noopener noreferrer">
-          <img 
+          <Image 
             src="/profile.jpg"  // รูปภาพที่เก็บใน public
             alt="Chanon Khemthong Profile Picture"  // เพิ่มคำบรรยายภาพ
+            width={150}  // กำหนดขนาด width
+            height={150} // กำหนดขนาด height
             style={{
-              width: '150px', 
-              height: '150px', 
               borderRadius: '50%', 
               objectFit: 'cover', 
               marginBottom: '1rem'
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
       <main>
         <section
           style={{
-            backgroundColor: '#f0f0f0', // สีพื้นหลังของส่วน About Me
+            backgroundColor: '#f0f0f0',
             padding: '20px',
             borderRadius: '8px',
             marginBottom: '20px',
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
         </section>
         <section
           style={{
-            backgroundColor: '#f0f0f0', // ให้สีพื้นหลังของ Skills เหมือนกับ About Me
+            backgroundColor: '#f0f0f0',
             padding: '20px',
             borderRadius: '8px',
             marginBottom: '20px',
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         </section>
         <section
           style={{
-            backgroundColor: '#e7ffe7', // สีพื้นหลังของส่วน Portfolio
+            backgroundColor: '#e7ffe7',
             padding: '20px',
             borderRadius: '8px',
             marginBottom: '20px',
@@ -81,7 +81,7 @@ const Home: React.FC = () => {
         </section>
         <section
           style={{
-            backgroundColor: '#fff3e7', // สีพื้นหลังของส่วน Contact
+            backgroundColor: '#fff3e7',
             padding: '20px',
             borderRadius: '8px',
             marginBottom: '20px',
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
           </p>
         </section>
       </main>
-      <footer style={{ textAlign: 'center', padding: '20px' }}>
+      <footer style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f0f0f0' }}>
         <p>&copy; {new Date().getFullYear()} Chanon. All Rights Reserved.</p>
       </footer>
     </div>
