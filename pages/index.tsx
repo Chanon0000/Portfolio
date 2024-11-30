@@ -26,7 +26,7 @@ const Home: React.FC = () => {
             }} 
           />
         </a>
-        <h1>Chanon Khemthong</h1>
+        <h1>Chanon Khemthong 007</h1>
       </header>
       <main>
         <section
