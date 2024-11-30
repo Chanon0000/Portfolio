@@ -48,7 +48,7 @@ const Home: React.FC = () => {
             marginBottom: '20px',
           }}
         >
-          <h2>Skills</h2>
+          <h2>Skills Me</h2>
           <ul>
             <li>HTML, CSS, JavaScript</li>
             <li>React.js, Next.js</li>
