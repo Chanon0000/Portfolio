@@ -16,7 +16,8 @@ const Home: React.FC = () => {
       >
         <a href="https://github.com/Chanon0000" target="_blank" rel="noopener noreferrer">
           <img 
-            src="https://th.bing.com/th/id/R.30869048698f4de8b6bea55dad671ea0?rik=3vN5AYOxcFbfSw&pid=ImgRaw&r=0" 
+            src="/profile.jpg"  // รูปภาพที่เก็บใน public
+            alt="Chanon Khemthong Profile Picture"  // เพิ่มคำบรรยายภาพ
             style={{
               width: '150px', 
               height: '150px', 
@@ -95,7 +96,7 @@ const Home: React.FC = () => {
           </p>
         </section>
       </main>
-      <footer>
+      <footer style={{ textAlign: 'center', padding: '20px' }}>
         <p>&copy; {new Date().getFullYear()} Chanon. All Rights Reserved.</p>
       </footer>
     </div>
