@@ -96,7 +96,7 @@ const Home: React.FC = () => {
         </section>
       </main>
       <footer>
-        <p>&copy; {new Date().getFullYear()} John Doe. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Chanon. All Rights Reserved.</p>
       </footer>
     </div>
   );
